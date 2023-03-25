@@ -1,18 +1,24 @@
 {
-    "DiscordServerId": "DISCORD_GUILD_ID(REQUIRED)",
-    "token": "DISCORD_API_BOT_TOKEN(REQUIRED)",
-    "twitch_clientID": "TWITCH_API_CLIENT_ID(REQUIRED)",
-    "twitch_secret": "TWITCH_API_SECRET(REQUIRED)",
+    "DiscordServerId": "854394570678730763",
+    "token": "ODA0NzU0NzYzNjE0NTE5MzM4.Giki0W.ipnUoTXU9xKfjSm4vUpy17KstxK2tc1sg4MNLY",
+    "twitch_clientID": "xu03lq5ttgc8opmhb9wi6lqgrmdwio",
+    "twitch_secret": "8cb8zvjwpk7peo4bqy54nwf85dj596",
     "cron": "*/10 * * * *",
-    "channelID": "CHANNELD_ID(REQUIRED)",
-    "roleID": "ROLE_ID(NOT REQUIRED)",
+    "channelID": "854394570678730765",
+    "roleID": "854394570678730765",
     "channels": [
         {
-            "ChannelName": "STREAMER_NAME(REQUIRED)",
+            "ChannelName": "pewdiepie",
+            "DiscordServer": "DISCORD_SERVER_INVITE_URL(NOT REQUIRED)",
+            "twitch_stream_id": "",
+            "discord_message_id": ""
+        },
+        {
+            "ChannelName": "valorant_jpn",
             "DiscordServer": "DISCORD_SERVER_INVITE_URL(NOT REQUIRED)",
             "twitch_stream_id": "",
             "discord_message_id": ""
         }
     ],
-    "authToken": ""
+    "authToken": "vabpqphweh5b7rjk63ichz9zqldceo"
 }
